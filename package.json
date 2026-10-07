@@ -1,0 +1,28 @@
+{
+  "name": "proverse-telegram-bot",
+  "version": "1.0.0",
+  "description": "ProVerse avtomatlashtirilgan Telegram vazifalar boti",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node tests/test-parser.js"
+  },
+  "keywords": [
+    "telegram-bot",
+    "proverse",
+    "education",
+    "automation",
+    "homework"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.20.0",
+    "dotenv": "^18.0.3",
+    "node-cron": "^4.6.0",
+    "playwright": "^1.63.0",
+    "telegraf": "^4.16.3"
+  }
+}
